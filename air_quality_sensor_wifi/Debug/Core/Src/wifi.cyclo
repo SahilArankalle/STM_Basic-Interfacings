@@ -1,0 +1,12 @@
+../Core/Src/wifi.c:18:20:WIFI_SPI_Receive	4
+../Core/Src/wifi.c:49:20:WIFI_SPI_Transmit	3
+../Core/Src/wifi.c:71:20:WIFI_Init	4
+../Core/Src/wifi.c:109:20:WIFI_SendATCommand	6
+../Core/Src/wifi.c:140:20:WIFI_CreateNewNetwork	1
+../Core/Src/wifi.c:186:20:WIFI_WebServerInit	1
+../Core/Src/wifi.c:218:20:WIFI_WebServerListen	5
+../Core/Src/wifi.c:285:27:WIFI_WebServerHandleRequest	1
+../Core/Src/wifi.c:296:20:WIFI_JoinNetwork	6
+../Core/Src/wifi.c:371:20:WIFI_MQTTClientInit	2
+../Core/Src/wifi.c:440:20:WIFI_MQTTPublish	1
+../Core/Src/wifi.c:467:6:trimstr	7

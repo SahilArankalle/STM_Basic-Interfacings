@@ -1,0 +1,97 @@
+{
+    "algorithm_type": "classifier",
+    "class_names": [
+        "cat",
+        "dog"
+    ],
+    "commit": "bb711f54",
+    "compilation_date": "2024-12-19T04:31:05.226140",
+    "compilation_flags": {
+        "float_abi": "hard",
+        "fshort_enums": true,
+        "short_wchar": false
+    },
+    "compilation_str": "{'compilation_dict':{'request_type':'library','api':{'env':'PROD','version':'v3'},'version':{'web_api':{'env':'PROD','version':'v3'},'local_api':{'version':'2024.10.07.3','platform':'win64'},'studio':'4.6.0'},'compilation_flags':{'float_abi':'hard','short_wchar':false,'fshort_enums':true,'use_knowledge':false},'mcu':'cortex-m4_st_stm32l4_nucleo-l476rg','sensor':'sound','request_origin':'manual','algorithm_type':'classifier','lib_version':'v2_bb711f5','info':{'progression':{'evals_done':1263,'optimization_progress':0.006315,'elapsed_time':103,'cpu_info':{'cpu_nb_cores':12,'cpu_nb_cores_for_optimization':9},'state':'paused'},'max_ram':128000,'max_flash':1024000,'optimization_global_id':'8baa88569e5c0357fd64f8a4fecbb6f6'},'class_names':'cat,dog','results':[{'result_id':86,'combination':[1,[17,1,7,11,3,16,22,19,18,5,6,13,23,26,20,24,12,25,2,0,15,4,9,10,21,8,14],27,0,0,1,[175],89,0.721,256,4,0.236,0,3,1,2,0,0.0,0.0,1000000.0,2,0,0,0,0],'model':4,'performance':{'performance':{'score':0.8991,'precision':0.9393,'precision_confidence_interval':[0.8362,0.9963]},'memory_usage':{'estimated_ram':2621,'estimated_flash':4840,'estimated_flash_knowledge':null}},'learning_min_lines':null,'knowledge_dat':'eNpll2k0lm3UhkUUkVIkEZ5kFqXR81zXdRsqEaVCIxIypAzNg1AoZCiZiVTGMmbIc1_7rjRIr6go3pTKlEiG5unrXd-P78d3rnWsde691l7757l32JvdK_pW3jPLKMkiDrb3zHd6lJme7TKx2Hwo1tz9i4aFzv1Zy08b-DCf_7iaqw2YWByQMWOixZ-tPCXjaCnyV2e6wLxXT8uscb2ZxX9EHI4Dft5b5kLvoGlp1Kh5ovZ9dEZmApOypZUkxFQvJS19_Irf_cx55iS_OaMMmWmu4CuV1_FbR1fyhUs0TPg1DHmkPcAPq7Dh96d4kJFpS5cckq5e_N8unuEjvnQSTzB8wJH_HyutBWT-ejP8zJ4vSOCn8s91TmbO2D8nKVW6jIiIttkDLgGFtf3DGb3dTLSfLYLkPUnYVd6JhMgGcUX5h8gngRUpEN7GurO-gKHScpgZkIYvL7AnP9p_UKPzakQ6aLZpkacP2T1Pi2grnWNiR7Uofr0JVNpOw1yXDzj1q4DpLTiGZt3fxxUmN3C99RGcTIMRTn_WAzo7TjPq8WLco75jYDd-IiebPYPk7ZMz3fpUi5u1nEdbd-kQ9-0PyOdjU5lju57gKQNVcEZLhsguj6ErB3hUp-wG-y-6TO2eKFJPeXvMpSVQ9T5nuPd5iO63v0PsPdrpseVp9OSKU2S6-3MSN7ec2kWrQkJoCZgfuEijkv1ASyyczjz_Hk1LroIj931p0AMTuuBOKKkrsuD7m88gTzw-04TMduKvsgB2RkbQWpVoOG56mWb9uk2aP8-BOXqXaNKas3A2fiP13R-M-2blk9CJoyQ7WZ_k34hBt5oApXa5Ybe7i_CZw0PY1EeeZLg0oBbRLbTojz69xDuHI3Y0YgfVOyhZfB2W0JwOLwIsiESQF4nxVmQa_3Fj531IAp_EQFbzbD-OFm8g4aLv2cvPTHCtnBdjmZOCjy7vIg0zPClh4nFdqDE6N85DkN_aj_WaMvDaI0Kw0LSGGRd8kJfTR_La5gN-lSNBIhw1obC1GwJi2uiTJepk6q2PaL5KL1vexpF4Qx6dbtQlqJCciAQ3JBmSMIV8vmsAso8xTYuYRNz1y3H0zBruj4mQznxcRju-b4Vl71Yg433LmJ4ZS8loYzeNM5MHv53TcEteMNk-QjmvvL3E9c49WsxUk2pTGS5Q2Mg83K5IJudnEBWpS8LMm0cZz7KfpG-3Ex5vqgFi-vfoYktlOlpWyXq4yJJnB32Rork2UojIx6UBcvhLwVVSX1SKugYnc3vETLFHlCGZjwm2a2PA41oWm-T0ntVtFNDw7WqM6WwjmoW_sq6Nj_BdhacoOUKDSuzKxi83rMA5ej3Y22wvfhuWSkzm7sX8JUVEb3wSjPFlyCnQhcZt10B1SxFuTpHGPtnRWORfllzWKSAfsrvQBkkXHNKkQUWH_hClNyPg2CxPtkrtgVcGs7FXwSO2wq-_1midNon6WE2FiKNNrdbsPGMlcmXnINLWJ7D5zXvaNf4K--e7AtWZso5ufpkFTfwIoIwIWaXqgUZ4VaBTH42FvhEgMV0CL2ixQmId6qSpcBUkNQ9hZeuJ3Owbg_ixnBNkJS7grDcb4_RFPmwlKaHHCpKgoTKdVJSVoye9PO5jowW4Ba2A5NMCuFHjREt_TwdJ1e8CuFjI_1fCi17X1cKBiZvpQrF6CkWZQn-P6_h1XR76GHAcfIZsacNsPZw03x82NppR_U0ikNBbQmMv9qMvWwXYz1iUlnyTYItF3tLr6xXojhv6eGTdGtK83ga-lc8jJ3ZuBvOqa_hXVBOqfjUV7rqcxFzGYG2krB9rndNCM1O-I_PD3ewJMStYtbubOmXE0AsGXfRwyE5ao6cLsHI28htcRtWteax0qAupqw2kTSL1-JJqLtu69iPOGWljF5XGgXm1Ef0yfJ5Vkxilbxvus87S8myHO6YtqXuw5e776M5aTMz0Tgh-7JWHT0tykUR3gjBrjgrZ-mE8tyJhMRGWiYCi6yg-vikAHu0SBXmrFtS23Za-NtvH-p6X5GqODOCRhfOEoF1BDzEuNDYigV4eWwNut5YwNakLIeTGED7jbYdv2kpStfOlZJlvN01sigbfpXOQIXectNhcx_nzGiGPX0jFG13wGb8q6D2wlUzXXg_PfExh7o8Y6OFPFKxx_Ugsf4uRI28mwO70XbCnKx-xlcGkLmQZs608nMyccw7kXbcR5YM5YGhgTa50LCaTCteT6FWu9N8Uce7bxggiDFmL9wyFgEL4Rrj1bTXkTOdxR30lmHU6BXCVL4FNN41DyU5z6beFp0g7T4v2O8zF0bp_0I5DPcRmcTT_T2IdOP5-TbvKFKg6O4imtWdyz0gGSFw_C1IZPKaw-AF6NPIWEl-ex3ydq-Ao8pTotp9ADTNcqWgu5npeXGGrOxdwsgkxRCr9EucVKuCMlB7gNPGTpPzgObbh9TnOzs2aaWi4xcoVzeWmVN2lw583QMSxSfjJVVUY55mIRhvTqcs_Y6zs0F12u-lS-uXjbySt_Rv7flmMHNxaqfbYelqvFUpUXwiFsnW5NOuaLKnUnsmd6PbEZqmqNX0XbyOlDRwbdLsL0hHLfjRNQ4OV2ghK6pFj6AnaccKG-P1qoste3cefk27S5iNXScWINDPSUkwXD-yimVJ-6Ey9PrMwGsODLRNoTU4espIxwI7jTtMNTi4Q2-FO_FvnQX_jbbbE0R51-z0XFLoFY8WofLq6bCFVLHVnZ65PxLm9LHvusR817XCjzvHHUMg2cX7tksra18aLYTUog_Pw3zyR-8SHguVgOcUMS1yWgSY8my61qBcsGGzCoifdQSlmG_5UGAQTdDOwyiYZuMwacVrOGNe2vaIKdJFgwc2lIPF-C5FQ96dK9zKhDNVQPCGerv3yBUtZhjFvUlazlS7-SGdSAQ7s1MZxo_HEL06K_rzVjzW-nMFt4fVYT9sKT5rjg5cNSLPbWyWwd6MuCZl4EdJbnXFSpg2VdbYmp8yTcUrTfbp2kOLIyFfCkKanePXqVMyFBxOnbe8ZySchJLRtDkmcbEzm-qhCVp83WW0yjKlXMtGuUsNhZlFc5_ml5PtkVfwkIRSHJjrQx8Ym4BLLEL_dItzuTzeRZNJv1mqcHL6RK8BKHlrApATgyXZVuNw4Hk1RWguzLoWg4DNF7JSt2UiDilOLNx30Xf8zcvTaWdz6fjz50P2Ljji_q31X34jLbDYJhtOasFKBEfV8U8f-brdixyqKQXmLD2oOMSMlHVfooUYpJi09BZ_yDxfWqWJoXh2GV2FxJqq5AVatPYSmD-8lfyIz8KujxiT2nC6ZZyzODUckozeBvwUWNFpoHP8PCjzAgyPFoYLf8jL4-K_-2jN5MnDoyUu2JjYGWW_k4Xexr9mK_V7UZF0LeV6tS8RS2_FmXWMqmsjH2xS78bwLZtS_UxOfdh9kf2l2o4DmjewXjatgpqlIW0f9yZnrMXT-jk9kXLsrCrQrpCc9J4GHkh0-FyvO-N4qB-WlTwXV2WvJ5pIk9Gm9BVl-y4qe0VfBr-QMcdbTLn5vrgT1U0PCugs_2dF96jR7_lps9UuM2ixeiZvjJ-INKlas1Z-Z9HB6OApcNhd_PbSUpj_SQaLXi9DZ3B702Pw0Cl5XJ7wfpcfybxtSUeNsZPpjBl6mPh53mTgi7c4F9HHaFZRSpot9eQa46WG88GjIRtT5lU97Mm-jA7cMsB__sxB_XUEjNQvZscMT6WfmDurcFQPfKz6B-YlZ8EtsNTp2dZwgOb-HZV6aoHWuSrREPoOOsTGs7N4k_tg8EHy2N4NpEaZ0o1IReytRHje2OZHtTpR26FqBmFskfbbjNC3WE6WnFpmijRHzobd3IkxBuaySixSWtDvGaahRlDBhGzjJN6KFyQpkm6EAiguvCZZpHgLTzg6ht3EsUX6th2WlsthDdZch7nkRrTh-DM2VMiQqayhc7JxBr2TfE2roadDslveCGVNjBafupKKHsYrEYExAW2aJ0dICNcHDEhHK7DiLJ9z2Ymf_CCPypQlk9KIqaZoahc_2y3ERWn2sTNQc5h-7SdR3ebfgx5KbkPtTgi76EEr1ck3YOdV72TznWpJwc78wwIQlwU98mcwLB9ierWth0ntDJN1pQzxUpaEw7QNb6jeR1Fda4hG17-xHBRlu7ZIXmFcbDKs2Kwu8MlbTNM9QauFRhb8MuFPhI0Uo68xFJ6PH8FVzDfxHPxK6R2Tg_Md0QavHSlz8sFS44kIlVOyPgCGRPLThZmutwYNF8OyRBD42lgBui_to34dr7PqOcMwbHw2_X0iSKNlfcH-YxbFuJ8Ft1zDkPC3Fw9ecaZ-SLfXriwaX04Wkm_mAJNS1OJ64NVy7LA8ZqdLcz71ReHvhfng4I5g92e_DRmVY0aWdKiTgQRxtf_GO2vYwNPj7cyxp6SA83RgHM0SsYdXrLahn0w30Y_hXbVBAGSQNXIeO7MdsP3uKdUdr4MCM9Th179_b574cvTHbnE5LFWLRumggN57jH7sncH9e-eHqi_6g7fMVLOWW4JyzHnT_j4O0zysHLFurScrAP-hVrCZ3K9sDvBOWgcJOT0YreQJ3dQ-P2S1bSR22ncXeD35juewFXFCFKLnnv5DJ9e5EIsF_IM_Dmm5LT2JmqSPim-1H-e4LmPOvEpgXV7pIyVg4GRUzJKUf-FhD7zhI2DnAuyRJ5rPnGvTy1iqk0zSH6xJVga7cJdycV_uYAps6aF9SytwN4kBZai5E6pyAJQGnce8yEdMXgZbc_oNJaMuR-2RRcT_RtuAxUlIboG3FIN7q_Tcry8KwmdwJ-nK-gL63tiM6vvJQXDrKbQizp8dLrMmRzfFoQDICMueuhkHzOFx7u5xb4d1BnIxuQt8bAWh1Em5203b05Gk9kU7swNU6zfSKiwLnCQPC21czhQaBF2jBTxnM-R_nVM0kSahyCn7zq4popWN8oOQEvt47l274m6Oiyw-S676p7A9PBZg8bi-ECV_jcqVFNPPbV8h4HU4v3amkXvnb6KFIbRohbkRnivGpqc5bOpZ9m1XacQ_FncygBZsSYV8BIMmaO7QlrYDE3cFkfeFLFJtajFu2_IaIl4NsnMF30rM48kbjgTJ2uLQajv5wpMfPLadpynIwvIGjgYVClDI1W-CqY06kzdcw6aMPkI13GNybFyGIGpGDKyYXqFmDJp2wbyVpfy1F7QZscSpfHwz1ikHDqp_WutYK7dd9E6q1p6FnymNsdvlDgXulPe3yTmLHHaxAq_OvCwrna8DBsCt0fvwl9rl8Jp1y9DTpSXhINR1SqG1YG20bOMWOc1ZkS_FdwU7Nn_Sr_wk6K8eUPk-ciLV0NDl1xwKcpVVPE-1W0wEjRVJRLQvDuQHokKg5rDkazBojcxK0pkZYXzOJBrsRcE_LEbQnSFPZSHXOYfFC5tOc8yAML4RChXgQtU2AwY2P4SgkwqP9mDtscREMR57AnXP54KPcDLyCRBjNL4aI6UbccZftnImlGDdk2QeT1QfgXV4uDFXs5CTjyqE0KwtURN5Dw4NUCLSvhRq1k0Rh712wmxbCHcl5AcnJ4ty-jau47c63YdbsACLpXACxj1O5FdczwNk3HwwfLud0cw6C3MS7sDQkjiQ7nodA5SNc5IXDzPhWaSK1eQG0VCSzDthScMLjLLJRtaNSPzWwpCtf6GyaDIk1GeR7Ng8bd31is4szmZViGVyToi9uHtFibWe5Qly4LQky4bM-p_h__yJKWmkVaHXkor0WUdThqQDxTOcL3naeZJJ2n-T0v9Uy-yqE3CYlWQJKItCKh3Dsiw_U5yaP6buryI1JdSPnqs-1-r2aHG7TZSJrG6h_pD3efVCHqJEPVLu_kcjmv4cqg2w0tWwL-1Ugxe3PlmQuLx3iLjoPMZULZbn277LMVet0Yu51EXg39eHRPkJEVfSYidU6nNNijnu0ARjd6HM06PgtLN33GDJ0npE2zU7UZLuSxYtsmWSBLed1OQp61sSQDu-d7DYHNSrYV0nqV-RBnN8QjhrpppfU7YkkbxM0-k4nx7bzQEQkmPkL-Yu5yP-J-T9bZva3ZP5__6809q76X_PfvLbZ_wBdTTDg'}],'data':{'nb_cols':256,'nb_lines':[[{'file_type':'class','nb_lines':109},{'file_type':'class','nb_lines':101}]]},'only_emulators':false,'lock_type':100},'sign':272494,'license_key':'***'}",
+    "compile_emulators": true,
+    "compile_library": true,
+    "data": {
+        "nb_cols": 256,
+        "nb_lines": [
+            [
+                {
+                    "file_type": "class",
+                    "nb_lines": 109
+                },
+                {
+                    "file_type": "class",
+                    "nb_lines": 101
+                }
+            ]
+        ]
+    },
+    "gcc_version": "arm-none-eabi-gcc (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 13.2.1 20231009",
+    "learning_min_lines": null,
+    "lib_limited": false,
+    "library_id": "6763a18ab85f3acb53553697",
+    "library_md5sum": "b70be072d5fbd666071a866b207d6628",
+    "mcu": "cortex-m4_st_stm32l4_nucleo-l476rg",
+    "mcu_cpn": "NUCLEO-L476RG",
+    "mcu_display_name": "NUCLEO-L476RG - STMicroelectronics",
+    "mcu_family": "STM32L4 Series",
+    "mcu_group": "demo",
+    "mcu_type": "cortex-m4",
+    "mcu_vendor": "STMicroelectronics",
+    "memory_usage": {
+        "flash": 3865,
+        "ram": 2461
+    },
+    "optimization_info": {
+        "max_flash": 1024000,
+        "max_ram": 128000,
+        "optimization_global_id": "8baa88569e5c0357fd64f8a4fecbb6f6",
+        "progression": {
+            "cpu_info": {
+                "cpu_nb_cores": 12,
+                "cpu_nb_cores_for_optimization": 9
+            },
+            "elapsed_time": 103,
+            "evals_done": 1263,
+            "optimization_progress": 0.006315,
+            "state": "paused"
+        }
+    },
+    "performance": {
+        "memory_usage": {
+            "estimated_flash": 4840,
+            "estimated_flash_knowledge": null,
+            "estimated_ram": 2621
+        },
+        "performance": {
+            "precision": 0.9393,
+            "precision_confidence_interval": [
+                0.8362,
+                0.9963
+            ],
+            "score": 0.8991
+        }
+    },
+    "request_type": "library",
+    "sensor": "sound",
+    "studio_info": {
+        "local_api": {
+            "platform": "win64",
+            "version": "2024.10.07.3"
+        },
+        "studio": "4.6.0",
+        "web_api": {
+            "env": "PROD",
+            "version": "v3"
+        }
+    },
+    "user_info": {
+        "company": "Jspm Rscoe",
+        "email": "arankallesahil@gmail.com",
+        "first_name": "Sahil",
+        "last_name": "Arankalle"
+    }
+}

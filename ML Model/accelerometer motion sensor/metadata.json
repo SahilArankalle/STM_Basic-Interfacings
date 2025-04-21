@@ -1,0 +1,93 @@
+{
+    "algorithm_type": "on_board_training",
+    "commit": "bb711f54",
+    "compilation_date": "2024-12-18T08:55:04.581986",
+    "compilation_flags": {
+        "float_abi": "hard",
+        "fshort_enums": true,
+        "short_wchar": false
+    },
+    "compilation_str": "{'compilation_dict':{'request_type':'library','api':{'env':'PROD','version':'v3'},'version':{'web_api':{'env':'PROD','version':'v3'},'local_api':{'version':'2024.10.07.3','platform':'win64'},'studio':'4.6.0'},'compilation_flags':{'float_abi':'hard','short_wchar':false,'fshort_enums':true,'use_knowledge':false},'mcu':'cortex-m4_st_stm32l4_nucleo-l476rg','sensor':'acc','request_origin':'manual','algorithm_type':'on_board_training','lib_version':'v2_bb711f5','info':{'progression':{'evals_done':1572,'optimization_progress':0.00786,'elapsed_time':327,'cpu_info':{'cpu_nb_cores':12,'cpu_nb_cores_for_optimization':9},'state':'paused'},'max_ram':128000,'max_flash':1024000,'optimization_global_id':'a1fd6270ba2cfe924fb0f84639b2ef89'},'class_names':'nominal,anomaly','results':[{'result_id':33,'combination':[0,1,[10,11,22,21,12,23,7,2,1,6,9,8,17,3,24,15,5,4,16,13,20,0,25,19,18,26,14],27,0,13,256,5,0,3,2,3,0.81,0.0,0.0,1000000.0,4.8,1,0,0,0,0.47,0.53],'model':5,'performance':{'performance':{'score':0.9263,'precision':0.944,'precision_confidence_interval':[0.9235,0.9645]},'memory_usage':{'estimated_ram':2491,'estimated_flash':3149,'estimated_flash_knowledge':116}},'learning_min_lines':40,'knowledge_dat':'eNpjYPjlFNerZvfQ2d2OgaHBnoHBwWHTXH_7DUUc9sbGn-0CT0g4q_hHOzJtkHfMn5tu37pQ3tGmLx2o7psTA8MCB5B6oD5nBhQAMifAESIHBSolnlCWAwBC_xja'}],'data':{'nb_cols':768,'nb_lines':[[{'file_type':'nominal','nb_lines':250},{'file_type':'anomaly','nb_lines':250}]]},'only_emulators':false,'lock_type':100},'sign':52731,'license_key':'***'}",
+    "compile_emulators": true,
+    "compile_library": true,
+    "data": {
+        "nb_cols": 768,
+        "nb_lines": [
+            [
+                {
+                    "file_type": "nominal",
+                    "nb_lines": 250
+                },
+                {
+                    "file_type": "anomaly",
+                    "nb_lines": 250
+                }
+            ]
+        ]
+    },
+    "gcc_version": "arm-none-eabi-gcc (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 13.2.1 20231009",
+    "learning_min_lines": 40,
+    "lib_limited": false,
+    "library_id": "67628de9b85f3acb53552fc3",
+    "library_md5sum": "b11f4aadc3f3b4ca330e2c84c99ea226",
+    "mcu": "cortex-m4_st_stm32l4_nucleo-l476rg",
+    "mcu_cpn": "NUCLEO-L476RG",
+    "mcu_display_name": "NUCLEO-L476RG - STMicroelectronics",
+    "mcu_family": "STM32L4 Series",
+    "mcu_group": "demo",
+    "mcu_type": "cortex-m4",
+    "mcu_vendor": "STMicroelectronics",
+    "memory_usage": {
+        "flash": 3348,
+        "ram": 2460
+    },
+    "optimization_info": {
+        "max_flash": 1024000,
+        "max_ram": 128000,
+        "optimization_global_id": "a1fd6270ba2cfe924fb0f84639b2ef89",
+        "progression": {
+            "cpu_info": {
+                "cpu_nb_cores": 12,
+                "cpu_nb_cores_for_optimization": 9
+            },
+            "elapsed_time": 327,
+            "evals_done": 1572,
+            "optimization_progress": 0.00786,
+            "state": "paused"
+        }
+    },
+    "performance": {
+        "memory_usage": {
+            "estimated_flash": 3149,
+            "estimated_flash_knowledge": 116,
+            "estimated_ram": 2491
+        },
+        "performance": {
+            "precision": 0.944,
+            "precision_confidence_interval": [
+                0.9235,
+                0.9645
+            ],
+            "score": 0.9263
+        }
+    },
+    "request_type": "library",
+    "sensor": "acc",
+    "studio_info": {
+        "local_api": {
+            "platform": "win64",
+            "version": "2024.10.07.3"
+        },
+        "studio": "4.6.0",
+        "web_api": {
+            "env": "PROD",
+            "version": "v3"
+        }
+    },
+    "user_info": {
+        "company": "Jspm Rscoe",
+        "email": "arankallesahil@gmail.com",
+        "first_name": "Sahil",
+        "last_name": "Arankalle"
+    }
+}

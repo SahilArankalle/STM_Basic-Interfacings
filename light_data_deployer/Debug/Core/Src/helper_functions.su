@@ -1,0 +1,4 @@
+../Core/Src/helper_functions.c:27:14:transmit_char	16	static
+../Core/Src/helper_functions.c:30:14:receive_char	16	static
+../Core/Src/helper_functions.c:50:1:__io_putchar	16	static
+../Core/Src/helper_functions.c:60:1:__io_getchar	16	static
